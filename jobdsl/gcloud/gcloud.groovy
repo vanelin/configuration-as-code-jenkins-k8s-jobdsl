@@ -1,4 +1,4 @@
-pipelineJob('pipeline-one') {
+pipelineJob('gcloud') {
   definition {
     cpsScm {
         scm {
@@ -9,7 +9,7 @@ pipelineJob('pipeline-one') {
             }
           }
         }
-        scriptPath("Jenkinsfile")
+        scriptPath("gcloud/Jenkinsfile")
     }
   }
 }
