@@ -1,4 +1,4 @@
-job('seed-job') {
+job('super-seed') {
   scm {
     git {
       remote {
