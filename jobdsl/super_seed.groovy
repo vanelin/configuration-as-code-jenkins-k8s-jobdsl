@@ -1,9 +1,8 @@
-job('super-seed') {
+job('AQA/super-seed') {
   scm {
     git {
       remote {
-        url ('git@github.com:figaw/configuration-as-code-jenkins-k8s-jobdsl.git')
-        credentials('jenkins-github-ssh')
+        url ('https://github.com/vanelin/configuration-as-code-jenkins-k8s-jobdsl.git')
       }
     }
   }
