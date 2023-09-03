@@ -4,7 +4,8 @@ pipelineJob('AQA/auth') {
         scm {
           git {
             remote {
-              url ('https://github.com/vanelin/configuration-as-code-jenkins-k8s-pipeline.git')
+              url ('git@github.com:vanelin/configuration-as-code-jenkins-k8s-pipeline.git')
+              credentials('jenkins-ssh-key')
             }
           }
         }
